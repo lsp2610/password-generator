@@ -13,39 +13,69 @@ Light Grey: #D1D5DB
 body {
     margin: 0;
     background: #1F2937;
-    text-align: center;
+    font-family: "Karla", sans-serif;
 }
 
 h1 {
-    color: #F9FAFB
+    color: #F9FAFB;
+    font-size: 50px;
+    width: 450px;
+    margin: 10px auto;
 }
 
 h2 {
-    color: #D1D5DB
+    color: #D1D5DB;
+    font-size: 25px;
+    font-weight: lighter;
+    margin: 0 auto;
+    width: 450px;
+}
+
+#button-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 450px;
+    margin: 50px auto 30px auto;
 }
 
 button {
     background:  #10B981;
-    color: #F9FAFB
+    color: #F9FAFB;
+    margin: 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
 }
+
+
 
 #divider {
     height: 2px;
     background: #374151;
-    width: 420px;
+    width: 450px;
     margin: 10px auto;
 }
 
  #passwords-div {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    width: 450px;
+    margin: 0 auto;
  }
 
 
 .passwords {
-    width: 200px;
+    width: 40%;
     background: #374151;
+    color: #10B981;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+#password-colour {
     color: #10B981
 }
